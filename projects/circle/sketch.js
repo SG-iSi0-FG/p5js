@@ -13,7 +13,12 @@ function draw() {
     b = 255;
     fill(r, g, b);
     r = 10;
-    ellipse(mouseX, mouseY, r, r);
+    beginShape();
+     vertex(mouseX+100, mouseY);
+     vertex(mouseX+31,mouseY+95);
+     vertex(mouseX-81,mouseY+59);
+     vertex(mouseX-81,mouseY-59);
+     vertex(mouseX+31,mouseY-95);
   } else {
     r = 255;
     g = 255;
