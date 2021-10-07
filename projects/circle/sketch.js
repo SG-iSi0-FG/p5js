@@ -18,6 +18,7 @@ function draw() {
      vertex(mouseX-81,mouseY+59);
      vertex(mouseX-81,mouseY-59);
      vertex(mouseX+31,mouseY-95);
+    endShape(CLOSE);
   } else {
     r = 255;
     g = 255;
