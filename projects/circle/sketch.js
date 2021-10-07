@@ -19,6 +19,11 @@ function draw() {
      vertex(mouseX-81,mouseY-59);
      vertex(mouseX+31,mouseY-95);
     endShape(CLOSE);
+    line(mouseX+100, mouseY,mouseX-81,mouseY+59);
+    line(mouseX+100, mouseY,mouseX-81,mouseY-59);
+    line(mouseX-81,mouseY-59,mouseX+31,mouseY+95);
+    line(mouseX+31,mouseY+95,mouseX+31,mouseY-95);
+    line(mouseX+31,mouseY-95,mouseX-81,mouseY+59);
   } else {
     r = 255;
     g = 255;
