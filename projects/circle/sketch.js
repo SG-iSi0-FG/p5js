@@ -6,6 +6,7 @@ function setup() {
 
 function draw() {
   // put drawing code here
+  background(128, 128, 128);
   if(mouseIsPressed){
     r = random(255);
     g = random(255);
