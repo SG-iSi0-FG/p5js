@@ -12,7 +12,6 @@ function draw() {
     g = 255;
     b = 255;
     fill(r, g, b);
-    r = 10;
     beginShape();
      vertex(mouseX+100, mouseY);
      vertex(mouseX+31,mouseY+95);
